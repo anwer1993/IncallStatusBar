@@ -11,6 +11,15 @@
 		A6FCC0DD29A4CB2100388C90 /* InCallStatusBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6FCC0D229A4CB2100388C90 /* InCallStatusBar.framework */; };
 		A6FCC0E229A4CB2100388C90 /* InCallStatusBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FCC0E129A4CB2100388C90 /* InCallStatusBarTests.swift */; };
 		A6FCC0E329A4CB2100388C90 /* InCallStatusBar.h in Headers */ = {isa = PBXBuildFile; fileRef = A6FCC0D529A4CB2100388C90 /* InCallStatusBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6FCC0F329A4CB8800388C90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FCC0F229A4CB8800388C90 /* AppDelegate.swift */; };
+		A6FCC0F529A4CB8800388C90 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FCC0F429A4CB8800388C90 /* SceneDelegate.swift */; };
+		A6FCC0F729A4CB8800388C90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FCC0F629A4CB8800388C90 /* ViewController.swift */; };
+		A6FCC0FA29A4CB8800388C90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6FCC0F829A4CB8800388C90 /* Main.storyboard */; };
+		A6FCC0FC29A4CB8900388C90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6FCC0FB29A4CB8900388C90 /* Assets.xcassets */; };
+		A6FCC0FF29A4CB8900388C90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6FCC0FD29A4CB8900388C90 /* LaunchScreen.storyboard */; };
+		A6FCC10A29A4CB8A00388C90 /* InCallStatusBarDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FCC10929A4CB8A00388C90 /* InCallStatusBarDemoTests.swift */; };
+		A6FCC11429A4CB8A00388C90 /* InCallStatusBarDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FCC11329A4CB8A00388C90 /* InCallStatusBarDemoUITests.swift */; };
+		A6FCC11629A4CB8A00388C90 /* InCallStatusBarDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FCC11529A4CB8A00388C90 /* InCallStatusBarDemoUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -21,6 +30,20 @@
 			remoteGlobalIDString = A6FCC0D129A4CB2100388C90;
 			remoteInfo = InCallStatusBar;
 		};
+		A6FCC10629A4CB8A00388C90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6FCC0C929A4CB2100388C90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6FCC0EF29A4CB8800388C90;
+			remoteInfo = InCallStatusBarDemo;
+		};
+		A6FCC11029A4CB8A00388C90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6FCC0C929A4CB2100388C90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6FCC0EF29A4CB8800388C90;
+			remoteInfo = InCallStatusBarDemo;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +52,19 @@
 		A6FCC0D629A4CB2100388C90 /* InCallStatusBar.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = InCallStatusBar.docc; sourceTree = "<group>"; };
 		A6FCC0DC29A4CB2100388C90 /* InCallStatusBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InCallStatusBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6FCC0E129A4CB2100388C90 /* InCallStatusBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InCallStatusBarTests.swift; sourceTree = "<group>"; };
+		A6FCC0F029A4CB8800388C90 /* InCallStatusBarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InCallStatusBarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6FCC0F229A4CB8800388C90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A6FCC0F429A4CB8800388C90 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A6FCC0F629A4CB8800388C90 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A6FCC0F929A4CB8800388C90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A6FCC0FB29A4CB8900388C90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6FCC0FE29A4CB8900388C90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A6FCC10029A4CB8900388C90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6FCC10529A4CB8900388C90 /* InCallStatusBarDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InCallStatusBarDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6FCC10929A4CB8A00388C90 /* InCallStatusBarDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InCallStatusBarDemoTests.swift; sourceTree = "<group>"; };
+		A6FCC10F29A4CB8A00388C90 /* InCallStatusBarDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InCallStatusBarDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6FCC11329A4CB8A00388C90 /* InCallStatusBarDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InCallStatusBarDemoUITests.swift; sourceTree = "<group>"; };
+		A6FCC11529A4CB8A00388C90 /* InCallStatusBarDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InCallStatusBarDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +83,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A6FCC0ED29A4CB8800388C90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6FCC10229A4CB8900388C90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6FCC10C29A4CB8A00388C90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,6 +112,9 @@
 			children = (
 				A6FCC0D429A4CB2100388C90 /* InCallStatusBar */,
 				A6FCC0E029A4CB2100388C90 /* InCallStatusBarTests */,
+				A6FCC0F129A4CB8800388C90 /* InCallStatusBarDemo */,
+				A6FCC10829A4CB8A00388C90 /* InCallStatusBarDemoTests */,
+				A6FCC11229A4CB8A00388C90 /* InCallStatusBarDemoUITests */,
 				A6FCC0D329A4CB2100388C90 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +124,9 @@
 			children = (
 				A6FCC0D229A4CB2100388C90 /* InCallStatusBar.framework */,
 				A6FCC0DC29A4CB2100388C90 /* InCallStatusBarTests.xctest */,
+				A6FCC0F029A4CB8800388C90 /* InCallStatusBarDemo.app */,
+				A6FCC10529A4CB8900388C90 /* InCallStatusBarDemoTests.xctest */,
+				A6FCC10F29A4CB8A00388C90 /* InCallStatusBarDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,6 +146,37 @@
 				A6FCC0E129A4CB2100388C90 /* InCallStatusBarTests.swift */,
 			);
 			path = InCallStatusBarTests;
+			sourceTree = "<group>";
+		};
+		A6FCC0F129A4CB8800388C90 /* InCallStatusBarDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A6FCC0F229A4CB8800388C90 /* AppDelegate.swift */,
+				A6FCC0F429A4CB8800388C90 /* SceneDelegate.swift */,
+				A6FCC0F629A4CB8800388C90 /* ViewController.swift */,
+				A6FCC0F829A4CB8800388C90 /* Main.storyboard */,
+				A6FCC0FB29A4CB8900388C90 /* Assets.xcassets */,
+				A6FCC0FD29A4CB8900388C90 /* LaunchScreen.storyboard */,
+				A6FCC10029A4CB8900388C90 /* Info.plist */,
+			);
+			path = InCallStatusBarDemo;
+			sourceTree = "<group>";
+		};
+		A6FCC10829A4CB8A00388C90 /* InCallStatusBarDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A6FCC10929A4CB8A00388C90 /* InCallStatusBarDemoTests.swift */,
+			);
+			path = InCallStatusBarDemoTests;
+			sourceTree = "<group>";
+		};
+		A6FCC11229A4CB8A00388C90 /* InCallStatusBarDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A6FCC11329A4CB8A00388C90 /* InCallStatusBarDemoUITests.swift */,
+				A6FCC11529A4CB8A00388C90 /* InCallStatusBarDemoUITestsLaunchTests.swift */,
+			);
+			path = InCallStatusBarDemoUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +229,59 @@
 			productReference = A6FCC0DC29A4CB2100388C90 /* InCallStatusBarTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		A6FCC0EF29A4CB8800388C90 /* InCallStatusBarDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6FCC11729A4CB8A00388C90 /* Build configuration list for PBXNativeTarget "InCallStatusBarDemo" */;
+			buildPhases = (
+				A6FCC0EC29A4CB8800388C90 /* Sources */,
+				A6FCC0ED29A4CB8800388C90 /* Frameworks */,
+				A6FCC0EE29A4CB8800388C90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InCallStatusBarDemo;
+			productName = InCallStatusBarDemo;
+			productReference = A6FCC0F029A4CB8800388C90 /* InCallStatusBarDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A6FCC10429A4CB8900388C90 /* InCallStatusBarDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6FCC11A29A4CB8A00388C90 /* Build configuration list for PBXNativeTarget "InCallStatusBarDemoTests" */;
+			buildPhases = (
+				A6FCC10129A4CB8900388C90 /* Sources */,
+				A6FCC10229A4CB8900388C90 /* Frameworks */,
+				A6FCC10329A4CB8900388C90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6FCC10729A4CB8A00388C90 /* PBXTargetDependency */,
+			);
+			name = InCallStatusBarDemoTests;
+			productName = InCallStatusBarDemoTests;
+			productReference = A6FCC10529A4CB8900388C90 /* InCallStatusBarDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A6FCC10E29A4CB8A00388C90 /* InCallStatusBarDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6FCC11D29A4CB8A00388C90 /* Build configuration list for PBXNativeTarget "InCallStatusBarDemoUITests" */;
+			buildPhases = (
+				A6FCC10B29A4CB8A00388C90 /* Sources */,
+				A6FCC10C29A4CB8A00388C90 /* Frameworks */,
+				A6FCC10D29A4CB8A00388C90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6FCC11129A4CB8A00388C90 /* PBXTargetDependency */,
+			);
+			name = InCallStatusBarDemoUITests;
+			productName = InCallStatusBarDemoUITests;
+			productReference = A6FCC10F29A4CB8A00388C90 /* InCallStatusBarDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -150,6 +297,17 @@
 					};
 					A6FCC0DB29A4CB2100388C90 = {
 						CreatedOnToolsVersion = 14.1;
+					};
+					A6FCC0EF29A4CB8800388C90 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					A6FCC10429A4CB8900388C90 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = A6FCC0EF29A4CB8800388C90;
+					};
+					A6FCC10E29A4CB8A00388C90 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = A6FCC0EF29A4CB8800388C90;
 					};
 				};
 			};
@@ -168,6 +326,9 @@
 			targets = (
 				A6FCC0D129A4CB2100388C90 /* InCallStatusBar */,
 				A6FCC0DB29A4CB2100388C90 /* InCallStatusBarTests */,
+				A6FCC0EF29A4CB8800388C90 /* InCallStatusBarDemo */,
+				A6FCC10429A4CB8900388C90 /* InCallStatusBarDemoTests */,
+				A6FCC10E29A4CB8A00388C90 /* InCallStatusBarDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -181,6 +342,30 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		A6FCC0DA29A4CB2100388C90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6FCC0EE29A4CB8800388C90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6FCC0FF29A4CB8900388C90 /* LaunchScreen.storyboard in Resources */,
+				A6FCC0FC29A4CB8900388C90 /* Assets.xcassets in Resources */,
+				A6FCC0FA29A4CB8800388C90 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6FCC10329A4CB8900388C90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6FCC10D29A4CB8A00388C90 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -206,6 +391,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A6FCC0EC29A4CB8800388C90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6FCC0F729A4CB8800388C90 /* ViewController.swift in Sources */,
+				A6FCC0F329A4CB8800388C90 /* AppDelegate.swift in Sources */,
+				A6FCC0F529A4CB8800388C90 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6FCC10129A4CB8900388C90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6FCC10A29A4CB8A00388C90 /* InCallStatusBarDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6FCC10B29A4CB8A00388C90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6FCC11629A4CB8A00388C90 /* InCallStatusBarDemoUITestsLaunchTests.swift in Sources */,
+				A6FCC11429A4CB8A00388C90 /* InCallStatusBarDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -214,7 +426,36 @@
 			target = A6FCC0D129A4CB2100388C90 /* InCallStatusBar */;
 			targetProxy = A6FCC0DE29A4CB2100388C90 /* PBXContainerItemProxy */;
 		};
+		A6FCC10729A4CB8A00388C90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6FCC0EF29A4CB8800388C90 /* InCallStatusBarDemo */;
+			targetProxy = A6FCC10629A4CB8A00388C90 /* PBXContainerItemProxy */;
+		};
+		A6FCC11129A4CB8A00388C90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6FCC0EF29A4CB8800388C90 /* InCallStatusBarDemo */;
+			targetProxy = A6FCC11029A4CB8A00388C90 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A6FCC0F829A4CB8800388C90 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6FCC0F929A4CB8800388C90 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A6FCC0FD29A4CB8900388C90 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6FCC0FE29A4CB8900388C90 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A6FCC0E429A4CB2100388C90 /* Debug */ = {
@@ -425,6 +666,138 @@
 			};
 			name = Release;
 		};
+		A6FCC11829A4CB8A00388C90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DQLF6YUAM4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = InCallStatusBarDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.IncallStatusBar.IncallStatusBar.InCallStatusBarDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6FCC11929A4CB8A00388C90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DQLF6YUAM4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = InCallStatusBarDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.IncallStatusBar.IncallStatusBar.InCallStatusBarDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A6FCC11B29A4CB8A00388C90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DQLF6YUAM4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.IncallStatusBar.IncallStatusBar.InCallStatusBarDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InCallStatusBarDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/InCallStatusBarDemo";
+			};
+			name = Debug;
+		};
+		A6FCC11C29A4CB8A00388C90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DQLF6YUAM4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.IncallStatusBar.IncallStatusBar.InCallStatusBarDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InCallStatusBarDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/InCallStatusBarDemo";
+			};
+			name = Release;
+		};
+		A6FCC11E29A4CB8A00388C90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DQLF6YUAM4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.IncallStatusBar.IncallStatusBar.InCallStatusBarDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InCallStatusBarDemo;
+			};
+			name = Debug;
+		};
+		A6FCC11F29A4CB8A00388C90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DQLF6YUAM4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.IncallStatusBar.IncallStatusBar.InCallStatusBarDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InCallStatusBarDemo;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -451,6 +824,33 @@
 			buildConfigurations = (
 				A6FCC0EA29A4CB2100388C90 /* Debug */,
 				A6FCC0EB29A4CB2100388C90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6FCC11729A4CB8A00388C90 /* Build configuration list for PBXNativeTarget "InCallStatusBarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6FCC11829A4CB8A00388C90 /* Debug */,
+				A6FCC11929A4CB8A00388C90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6FCC11A29A4CB8A00388C90 /* Build configuration list for PBXNativeTarget "InCallStatusBarDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6FCC11B29A4CB8A00388C90 /* Debug */,
+				A6FCC11C29A4CB8A00388C90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6FCC11D29A4CB8A00388C90 /* Build configuration list for PBXNativeTarget "InCallStatusBarDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6FCC11E29A4CB8A00388C90 /* Debug */,
+				A6FCC11F29A4CB8A00388C90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
